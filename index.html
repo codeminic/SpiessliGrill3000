@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Spiessli Grill 3000</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css" />
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
         </script>
@@ -15,15 +15,24 @@
 </head>
 
 <body>
-    <h1>Willkommen zu Spiessli Master 3000!</h1>
-    <table id="table">
-        <tr>
-            <th>Name</th>
-            <th>Timer</th>
-        </tr>
-    </table>
-    <input id="nameInput" type="text" />
-    <button id="addPersonButton">Hinzufügen</button>
+    <div class="d-flex flex-column align-items-center">
+            <h1 class="display-1" style="margin: 50px;">Spiessli Master 3000</h1>
+            <div class="input-group mb-3" style="width: 80%;">
+                <input id="nameInput" type="text" class="form-control" placeholder="Gib hier deinen Namen ein" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-primary" type="button" id="addPersonButton">Hinzufügen</button>
+                </div>
+            </div>
+                  
+            <table id="table" class="table" style="width: 80%;" >
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Timer</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+        </div>
 </body>
-
 </html>
