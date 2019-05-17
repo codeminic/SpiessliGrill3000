@@ -8,7 +8,7 @@ Having barbecue with your friends? Tired of beeing the 'barbecue master' that ha
 
 Well then... it's time for Spiessli Master 3000!
 
-SM 3000 allows you to set individual timers for you and your friend. When a timer expires, a friendly voice reminds you, that you should check your grillables.
+SM 3000 allows you to set individual timers for you and your friends. When a timer expires, a friendly voice reminds you, that you should check your grillables.
 
 Check out the demo [here](https://spiessli-master-3000.azurewebsites.net/)!
 
